@@ -1,0 +1,56 @@
+#search {
+    border-radius: 5px 0 0 5px !important;
+}
+#search-icon {
+    border-radius: 0 5px 5px 0 !important;
+    background: #d7e3f8;
+}
+
+.svg-icon.search-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #3977de;
+}
+
+.hr-line-1 {
+    border: 1px solid lightgrey;
+}
+
+.admin-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #3977de;
+}
+
+.stats-box {
+    box-shadow: 0 0 15px gainsboro !important;
+}
+
+.stats-icon {
+    max-height: 55px;
+    padding: 4px 14px 4px 14px;
+    border-radius: 50%;
+    background: #d7e3f8;
+}
+
+.font-weight-bold {
+    font-size: 25px;
+}
+
+.gear{
+    font-size: 17px !important;
+    position: relative;
+    top: -12px;
+    left: 12px;
+}
+
+.adminName{
+    display: block;
+    width: 70px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* Reference : https://stackoverflow.com/questions/33718245/limit-characters-displayed-in-span */

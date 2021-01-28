@@ -1,0 +1,119 @@
+.tests {
+    color: black;
+    background: white !important;
+    /* box-shadow: 0px 0px 2px #c3d6f5; */
+    box-shadow: 2px 3px silver;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.tests:hover {
+    box-shadow: 2px 2px orangered;
+}
+
+.students {
+    color: black;
+    background: white !important;
+    /* box-shadow: 0px 0px 2px #7CEC9F; */
+    box-shadow: 2px 3px silver;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.students:hover {
+    box-shadow: 2px 2px orangered;
+}
+
+.test-cards, .stud-cards:hover {
+    box-shadow: 20px;
+}
+
+.test-numbers {
+    font-size:20px;
+    font-weight:500;
+}
+
+.test-labels {
+    font-size:14px;
+    opacity: 0.8;
+}
+
+.t-head {
+    color:white;
+    font-size:15px;
+}
+
+.carousel-indicators {
+    position:absolute;
+    top:10px;
+    left:0px;
+    background: lightblue;
+    width: 100px;
+    height: 50px;
+}
+
+.tabs {  
+    text-indent:0;
+    width:200px;
+    height: 60px;
+    border:none;
+    background: black;
+    color: white;
+    /* background-color: transparent; */
+}
+
+.card{
+    width: 95%;
+    margin: 15px 0 15px 0;
+    padding: 10px;
+}
+
+.body-cards {
+    overflow: hidden;
+    margin-left: 250px;
+}
+
+.main-card {
+    width: 100%-250px;
+}
+
+tr {
+    width: 1050px;
+}
+
+/* For admin dashboard body 2 tabs  */
+
+.register{
+    background: #3977de;
+    border-radius: 17px 17px 0 0;
+}
+.login{
+    background: #3977de;
+    border-radius: 17px 17px 0 0;
+}
+.textWhite{
+    font-size: 20px;    
+    color: white;
+}
+.textWhite:hover{
+    color:white;
+    text-decoration:none;
+}
+.textBlack{
+    font-size: 20px;
+    color: black;
+}
+.textBlack:hover{
+    color:black;
+    text-decoration:none;
+}
+.toggle{
+    padding:10px 16px 10px 16px;
+    font-weight: 600;
+    /* width:200px; */
+}
+/* END of For admin dashboard body 2 tabs  */
+
+.table-search {
+    background: #3977de !important;
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+}
